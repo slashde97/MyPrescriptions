@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    tools:context="com.example.user.mymedic.PatientTopBar"
+    android:layout_alignParentTop="true"
+    android:background="@color/secondaryDarkColor"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/transparent"
+        android:contentDescription="@string/slidebar_button"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/slidebar_icon" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:contentDescription="@string/mymedic_app_logo"
+        android:gravity="center"
+        android:padding="9dp"
+        android:src="@drawable/app_logo" />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/transparent"
+        android:contentDescription="@string/notification_button"
+        android:gravity="center"
+        android:padding="18dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/notification__bell" />
+</LinearLayout>

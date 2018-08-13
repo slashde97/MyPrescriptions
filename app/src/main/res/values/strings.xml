@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyMedic</string>
+    <string name="slidebar_button">Slide Bar Button</string>
+    <string name="notification_button">Notification Button</string>
+    <string name="mymedic_app_logo">My Medic Application Logo</string>
 </resources>
