@@ -3,4 +3,39 @@
     <string name="slidebar_button">Slide Bar Button</string>
     <string name="notification_button">Notification Button</string>
     <string name="mymedic_app_logo">My Medic Application Logo</string>
+    <string name="button">Button</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="prescription_id">Prescription ID</string>
+    <string name="todo">TODO</string>
+    <string name="my_prescriptions">My Prescriptions</string>
+    <string name="textview">TextView</string>
+    <string-array name="dropdown1">
+       <item>001</item>
+       <item>002</item>
+       <item>003</item>
+       <item>004</item>
+       <item>005</item>
+       <item>006</item>
+   </string-array>
+    <string-array name="dropdown2">
+        <item>Dr.Sasindu Alwis</item>
+        <item>Dr.Rukshan Perera</item>
+        <item>Dr.Lahiru Perera</item>
+        <item>Dr.Shenal Pranandu</item>
+
+    </string-array>
+    <string-array name="items">
+        <item>Issue Date</item>
+        <item>Next Issue Date</item>
+        <item>Expiry Date</item>
+
+    </string-array>
+    <string-array name="prices">
+        <item>blah</item>
+        <item>blah</item>
+        <item>blah </item>
+    </string-array>
+
+
+
 </resources>
